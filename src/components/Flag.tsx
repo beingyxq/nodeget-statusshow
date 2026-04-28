@@ -9,7 +9,7 @@ export function Flag({ code, className }: { code?: string | null; className?: st
       alt={c}
       title={c}
       loading="lazy"
-      className={cn('inline-block w-5 h-3.5 rounded-sm object-cover shadow-sm', className)}
+      className={cn('inline-block w-5 h-3.5 rounded-[1px] object-cover shadow-sm', className)}
     />
   )
 }
